@@ -12,3 +12,18 @@ header{
     background-color:white;
     min-height: 20px;
 }
+
+#jumbo{
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    /* debug */
+    min-height: 500px;
+}
+
+.jumbo-content{
+    
+     /* debug */
+     background-color:white;
+     min-height: 200px;
+}

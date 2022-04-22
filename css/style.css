@@ -1,0 +1,14 @@
+header{
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+
+    /* debug */
+    min-height: 100px;
+}
+
+.logo, .nav{
+    /* debug */
+    background-color:white;
+    min-height: 20px;
+}

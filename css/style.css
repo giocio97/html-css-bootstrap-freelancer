@@ -27,3 +27,27 @@ header{
      background-color:white;
      min-height: 200px;
 }
+
+#portfolio{
+    padding: 10px;
+    text-align: center;
+}
+
+.text-db{
+     /* debug */
+     background-color:rgb(227, 0, 0);
+     min-height: 20px;
+}
+
+#porfolio-content{
+    padding: 50px;
+}
+
+.portfolio-img{
+    /* debug */
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    border: solid 1px black;
+    margin: 20px;
+}

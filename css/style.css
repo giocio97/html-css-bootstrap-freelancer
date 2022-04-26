@@ -1,16 +1,14 @@
 header{
     background-color: #2c3e50;
-    display: flex;
-    align-items: center;
+    
 
     /* debug */
-    min-height: 100px;
+    /* min-height: 100px; */
 }
 
-.logo, .nav{
-    /* debug */
-    background-color:white;
-    min-height: 20px;
+header nav {
+    color: white;
+   
 }
 
 #jumbo{
@@ -18,14 +16,23 @@ header{
     display: flex;
     align-items: center;
     /* debug */
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .jumbo-content{
     
+    color: white;
+    text-align: center;
      /* debug */
-     background-color:white;
-     min-height: 200px;
+     /* background-color:white;
+     min-height: 200px; */
+}
+
+.jumbo-content img{
+object-fit: contain;
+width: 200px;
+height: 200px;
+padding: 10px;
 }
 
 #portfolio{
@@ -44,12 +51,15 @@ header{
 }
 
 .portfolio-img{
+    border-radius: 10%;
+    padding: 20px;
+    
     /* debug */
-    width: 150px;
+    /* width: 150px;
     height: 150px;
     background-color: salmon;
     border: solid 1px black;
-    margin: 20px;
+    margin: 20px; */
 }
 
 #about{

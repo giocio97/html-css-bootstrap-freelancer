@@ -73,9 +73,7 @@ padding: 10px;
     background-color: #1abc9c;
 }
 
-#contact h4, .divisorio {
-    text-align: center;
-}
+
 
 .text-about{
     padding: 10px;
@@ -84,6 +82,19 @@ padding: 10px;
     padding: 10px;
     
 }
+
+#contact h4, .divisorio {
+    text-align: center;
+}
+
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    
+}
+
+
 
 .text-dowload{
  border: 1px solid white ;
